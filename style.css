@@ -1,0 +1,645 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Nunito:wght@200;300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;400&display=swap');
+
+.nav{
+    font-family: 'Montserrat', sans-serif;
+}
+#intro h1{
+    font-size:50px;
+    line-height:64px;
+    margin:0;
+    color:#4c7d69;
+    font-family: 'Nunito', sans-serif;
+}
+
+#intro h2{
+    font-size:32px;
+    line-height:54px;
+    color:#222;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#intro h4{
+    font-size: 15px;
+    color:#222;
+    font-family: 'Montserrat', sans-serif;
+}
+h6{
+    font-weight: 700;
+    font-size:12px;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-item{
+    padding-left:6px;
+}
+#intro{
+    background-image: url("img/banner3.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 90vh;
+    width:100%;
+    padding: 0 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+#intro button{
+    background-image: url("img/button.png");
+    background-color:transparent;
+    color:#4c7d69;
+    border:0;
+    padding: 14px 80px 14px 65px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+#foryou{
+    margin-top:80px;
+}
+#foryou .wow h2{
+    font-size:45px;
+    line-height:54px;
+    color:#222;
+    margin:0;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#foryou .wow h4{
+    font-size: 15px;
+    color:#222;
+    font-family: 'Montserrat',sans-serif;
+    font-style:italic;   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#foryou .col{
+    
+    width: 300px;
+
+    padding: 15px 20px;
+    border: 1px solid #FFF2F2;
+    border-radius: 25px;
+    position: relative;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px #F1F6F5;
+    margin:20px 50px;
+    transition: 0.2s ease;
+}
+
+#foryou .col:hover{
+    box-shadow: 20px 20px 30px #d3cbcb;
+
+}
+#foryou .col img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+#foryou .star i{
+    color:#F5EA5A;
+}
+
+#foryou .col .des{
+    text-align: start;
+    padding: 10px 0;
+
+}
+#foryou .col .des span{
+    color: #7B8FA1;
+    font-size: 12px;
+}
+
+#foryou .col .des h5{
+    display: flex;
+    margin:0;
+    color:#4E6C50;
+    font-family:'Noto Sans', sans-serif;
+
+}
+
+#foryou .col .des h4{
+    margin: 0;
+    font-style: normal;
+    text-align: start;
+    font-family: "spartan",sans-serif;
+    font-size: 15px;
+    color: #5F8D4E;
+    
+}
+
+#foryou .col a{
+    width: 40px;
+    height:40px;
+    border-radius:50px;
+    background-color:#F6F6C9;
+    color:#4c7d69;
+    border: solid #cce7d0;
+    padding: 7px;
+    display: flex;
+    text-decoration:none;
+    position: absolute;
+    bottom:20px;
+    right:9px;
+}
+
+#foryou .row{
+    display: flex;
+    justify-content:center;
+    padding-top: 20px;
+    flex-wrap:wrap;
+    align-items: center;
+}
+
+
+#foryou .em{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#foryou button {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#foryou button:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  #foryou button {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+#banner img{
+    border-radius: 30px;
+    border: none;
+    width: 885.60px;
+    height: 400px;
+}
+
+#newsletter {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url("img/newslb.jpg");
+    background-repeat: no-repeat;
+    background-position: 20% 30%;
+    border: none;
+    border-radius: 8px;
+}  
+
+#newsletter .newstext h4{
+    font-size: 29px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color:#ffffff;
+
+}
+
+#newsletter .newstext p{
+    font-size: 14px;
+    font-family: 'Nunito', sans-serif;
+    color:#57687e;
+}
+
+#newsletter .newstext p span{
+    color:#f454b2;
+
+}
+
+#newsletter form button{
+    font-family: 'Nunito', sans-serif;
+    color:#57687e;
+}
+
+footer .col h4{
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+  
+}
+
+footer .col p{
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left:8px;
+}
+
+footer .col a{
+    font-size:13px;
+    font-family: 'Montserrat', sans-serif;
+    color: #222;
+    text-decoration: none;
+  
+}
+
+footer .follow{
+    height:60px;
+}
+
+footer .col .icon i{
+    padding: 3px;
+    margin-left:5px;
+    color: #222;
+}
+footer .col .row{
+    align-items: center; 
+    float: left;
+    margin:10px;
+}
+
+footer .col .row img{
+    float: left;
+    padding: 5px;
+    width:40%;
+    height:40px;
+}
+
+footer{
+    margin:10px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+
+footer .col{
+    display: flex;
+    flex-direction: column;
+
+}
+.copyright{
+    font-size:10px;
+    margin:10px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+
+footer .follow .icon i:hover,
+footer .col a:hover{
+    color: #327258;
+}
+
+/*shop page*/
+
+#header{
+    background-image: url("img/banner/b07.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+    width:100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+   
+}
+
+#header h2,
+#header p{
+color: #6A5495;
+font-family:'Montserrat', sans-serif ;
+font-weight: 600;
+text-decoration: dashed;
+text-shadow: 2px 0 #fff, -2px 0 #fff, 0 2px #fff, 0 -2px #fff,
+1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+}
+
+
+#pages{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+  
+}
+
+#pages button{
+    margin: 4px;
+
+}
+
+#prodetails .singlep{
+    width:30%;
+    margin: 30px 70px 0px 70px;
+}
+
+.small-img-group{
+    display: flex;
+    justify-content:space-around;
+}
+
+.small-img-col{
+  width:126px;
+  height: 167px;
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
+#Mainimg{
+    padding:10%;
+    border: 1px solid #d3cbcb;
+    border-radius: 5px;
+    margin-left:2px;
+}
+
+.smallimg{
+    border: 1px solid  #d3cbcb;
+    border-radius: 5px;
+    padding:20%;
+}
+
+.smallimg:hover{
+    -webkit-box-shadow: 10px 10px 20px 4px rgba(211,203,203,1);
+    -moz-box-shadow: 10px 10px 20px 4px rgba(211,203,203,1);
+    box-shadow: 10px 10px 20px 4px rgba(211,203,203,1);
+}
+
+#prodetails 
+{
+    display: flex;
+    justify-content: flex-start;
+    margin-top:20px;
+
+}
+
+#prodetails .singleprodetails{
+    width:40%;
+    padding-top:30px;
+}
+
+#prodetails .singleprodetails h4{
+    padding: 10px 0;
+    font-size: 35px;
+    color:#222;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 500;
+}
+
+#prodetails .singleprodetails h2{
+    color:#222;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color:#327258;
+}
+
+#header2{
+    background-image: url("img/banner/ban44.jpg") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    height: 40vh;
+    width:100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+   
+}
+
+#header2 h2,
+#header2 p{
+color: #e9dcdd;
+font-family:'Montserrat', sans-serif ;
+font-weight: 600;
+text-shadow: rgb(14, 14, 14);
+}
+
+
+#blog{
+    padding: 150px 150px 0px 150px;
+
+}
+
+#blog .blogbox{
+    display: flex;
+    align-items: center;
+    width:100%;
+    margin-bottom: 100px;
+}
+#blog .blogimg{
+    width:50%;
+    margin-right:40px;
+}
+#blog img{
+    width:100%;
+    height:300px;
+    object-fit:cover;
+    border: none;
+    border-radius: 3px;
+}
+
+#blog .blogdetails p,
+#blog .blogdetails button{
+
+font-family:'Montserrat', sans-serif ;
+
+}
+
+#blog .blogdetails h4{
+    font-family: 'League Spartan', sans-serif;
+}
+
+#header3{
+    background-image: url("img/about/banner.png") ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    height: 40vh;
+    width:100%;
+    padding: 0 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 14px;
+}
+
+#header3 h2
+{
+color:#e9dcdd;
+font-family:'Montserrat', sans-serif ;
+font-weight: 600;
+text-shadow: rgb(14, 14, 14);
+}
+
+#abouthead img{
+    width:50%;
+    height: auto;
+}
+
+#abouthead{
+    display: flex;
+    align-items: center;
+}
+
+#abouthead div{
+    padding-left: 40px;
+}
+
+#aboutapp{
+    text-align: center;
+}
+
+#aboutapp .video{
+    width:70%;
+    height:100%;
+    margin:30px auto 0 auto;
+}
+
+#aboutapp .video video{
+    width:100%;
+    height:100%;
+    border-radius:20px;
+}
+
+#contacthead .detailsc{
+    width:40%;
+}
+
+#contacthead{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#feedback .feedback-details{
+    width:50%;
+}
+
+#feedback{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+#people div{
+    display: flex;
+    justify-content:center;
+}
+
+#people{
+    width: 30%;
+}
+
+
+#cart-container table{
+    border-collapse: collapse;
+    width:100%;
+    table-layout: fixed;
+
+ }
+ #cart-container table thead{
+font-weight: 700;
+ }
+ #cart-container table thead td{
+    background:  rgb(229, 190, 190);
+    color: aliceblue;
+    border: none;
+    padding: 6px 0px;
+ }
+ #cart-container table td{
+    border:1px solid;
+    text-align: center;
+
+
+ }
+ #cart-container table td:nth-child(1){
+    width:100px;
+
+
+ }
+ #cart-container table td:nth-child(2),
+ #cart-container table td:nth-child(3){
+    width: 200px;
+ }
+ #cart-container table td:nth-child(4),
+ #cart-container table td:nth-child(5),
+ #cart-container table td:nth-child(6){
+    width: 175px;
+ }
+ #cart-container table tbody img{
+ width: 100px;
+ height:85px;
+ object-fit: cover;
+
+ }
+ #cart-container table tbody i{
+    color: #8d8c8d;
+ }
+
+
+ #cart-bottom .coupon h5 {
+    background: rgb(229, 190, 190);
+    color: aliceblue;
+    border: none;
+    padding: 8px;
+margin-right: 268px;
+   
+
+ }
+ #cart-bottom .coupon input{
+    height: 44px;
+
+ }
+ #cart-bottom .total h5{
+    background: rgb(229, 190, 190);
+    color: aliceblue;
+    border: none;
+    padding: 8px;
+
+ }
+ #cart-bottom .total h6{
+    color:black;
+ }
+ #cart-bottom .total button{
+    opacity: 1;
+    transition:0.3s ;
+ }
+ .second-hr{
+    width: 100px;
+ }
+ 
+
