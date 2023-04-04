@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="icon" type="image/png" href="img/icon.png">
+    <link href="searchtool.css" rel="stylesheet">
   <title>Try You</title>
+  
 
   </head>
   <body>
@@ -75,6 +77,37 @@
       <h4>a collection for all your needs</h4>
       </div>
   
+                 <!--search bar-->
+        <div class="search-wrapper">
+          <div id="search-container">
+            <input
+              type="search"
+              id="search-input"
+              placeholder="Search product name here.."
+            />
+            <button id="search">Search</button>
+          </div>
+         
+          <div id="search-buttons">
+            <button class="search-button-value" onclick="filterProduct('all')">All</button>
+            <button class="search-button-value" onclick="filterProduct('Topwear')">
+              Topwear
+            </button>
+            <button class="search-button-value" onclick="filterProduct('Bottomwear')">
+              Bottomwear
+            </button>
+            <button class="search-button-value" onclick="filterProduct('Jacket')">
+              Jacket
+            </button>
+            <button class="search-button-value" onclick="filterProduct('Bag')">
+              Watch
+            </button>
+          </div>
+          <div id="products"></div>
+        </div>
+       
+        <!--search bar finish-->
+       
         <div class="row container-fluid">
           <div class="col">
             <div class="image">
